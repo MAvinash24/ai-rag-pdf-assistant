@@ -67,6 +67,7 @@ MODEL_NAME=gemini-1.5-flash
 cd frontend
 npm install
 npm install axios
+npm audit fix
 npm run dev
 ```
 
