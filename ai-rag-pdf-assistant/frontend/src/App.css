@@ -1,0 +1,74 @@
+body {
+  background: #0f172a;
+  color: white;
+  font-family: sans-serif;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.chat {
+  width: 650px;
+  margin: auto;
+}
+
+.upload {
+  margin-bottom: 10px;
+}
+
+.window {
+  height: 400px;
+  overflow-y: auto;
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bubble {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  max-width: 80%;
+}
+
+.user {
+  background: #3b82f6;
+  text-align: right;
+  margin-left: auto;
+}
+
+.bot {
+  background: #10b981;
+  text-align: left;
+  margin-right: auto;
+}
+
+.input {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.input button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  background: #6366f1;
+  color: white;
+  cursor: pointer;
+}
+
+.input button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
